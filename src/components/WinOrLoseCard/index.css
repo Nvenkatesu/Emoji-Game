@@ -1,0 +1,58 @@
+/* Write your code here. */
+.card-container {
+  background-color: #ffffff30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  width: 40%;
+  margin-top: 20px;
+}
+.win-img {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .win-img {
+    height: 120px;
+    width: 120px;
+  }
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.label {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.card-score {
+  font-size: 25px;
+  color: #6a59ff;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.button {
+  height: 38px;
+  width: 110px;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  border-radius: 18px;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
